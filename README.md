@@ -36,4 +36,5 @@ Understand the dataset using summary statistics and visualizations (histograms, 
   - Run the notebook with Jupyter: `jupyter notebook eda_task2.ipynb`
 
 ## Author
-**Thrishool M S** — Elevate Labs (Task 2)
+**Thrishool M S**
+Elevate Labs — Task 1
