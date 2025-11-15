@@ -1,7 +1,7 @@
 # Titanic — Exploratory Data Analysis (EDA)
-**Task 2 — AIML Internship**
+**Task 2**
 
-This repository contains the Exploratory Data Analysis performed on the Titanic dataset as part of the AIML internship.
+This repository contains the Exploratory Data Analysis performed on the Titanic dataset as part of the AIML internship by **Elevate Labs**.
 
 ## Files
 - `tit-data.csv` — Raw dataset used for EDA.
