@@ -1,0 +1,10 @@
+
+# EDA Summary (Task 2)
+
+- Females have a higher survival rate than males.
+- Higher-class passengers (Class 1) survived more.
+- Higher fare passengers show better survival trends.
+- Outliers found in Fare and Age distributions.
+- Age distribution is right-skewed.
+- Fare shows very high variance and several extreme outliers.
+- Strong negative correlation between Pclass and Survived.
