@@ -37,4 +37,4 @@ Understand the dataset using summary statistics and visualizations (histograms, 
 
 ## Author
 **Thrishool M S**
-Elevate Labs — Task 1
+Elevate Labs — Task 2
