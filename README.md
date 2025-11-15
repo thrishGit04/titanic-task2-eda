@@ -36,4 +36,4 @@ Understand the dataset using summary statistics and visualizations (histograms, 
   - Run the notebook with Jupyter: `jupyter notebook eda_task2.ipynb`
 
 ## Author
-**Shelby** — AIML Internship (Task 2)
+**Thrishool M S** — Elevate Labs (Task 2)
