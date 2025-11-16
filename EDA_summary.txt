@@ -1,10 +1,68 @@
 
-# EDA Summary (Task 2)
+# EDA Summary – Titanic Dataset (Task 2)
 
-- Females have a higher survival rate than males.
-- Higher-class passengers (Class 1) survived more.
-- Higher fare passengers show better survival trends.
-- Outliers found in Fare and Age distributions.
-- Age distribution is right-skewed.
-- Fare shows very high variance and several extreme outliers.
-- Strong negative correlation between Pclass and Survived.
+## 1. Overview
+The dataset contains information about Titanic passengers, including their demographic details, ticket class, fare, and survival outcome. The goal of EDA was to understand important patterns, identify correlations, detect outliers, and explore relationships between features and survival.
+
+---
+
+## 2. Key Findings
+
+### 2.1 Missing Values
+- Age has missing values; distribution is wide and requires imputation.
+- Cabin is mostly missing, so a new feature “HasCabin” is useful.
+- Embarked has a few missing values that can be filled with mode.
+
+---
+
+## 3. Univariate Analysis (Single-Feature Analysis)
+
+### Numerical Features:
+- **Age**: Right-skewed distribution; majority between 20–40.
+- **Fare**: Highly skewed with several extreme outliers.
+- **SibSp/Parch**: Mostly low values (0 or 1); very few large families.
+
+### Categorical Features:
+- **Sex**: Males are more frequent, but females survive much more.
+- **Pclass**: Majority are in class 3.
+- **Embarked**: Most passengers boarded at Southampton.
+
+---
+
+## 4. Bivariate Analysis (Feature vs Survival)
+
+### Survival Rates:
+- **Sex**: Females have significantly higher survival rate than males.
+- **Pclass**: Higher-class passengers (Class 1) survived much more than Class 3.
+- **Fare**: Higher fare correlates with higher survival probability.
+- **Age**: Children have slightly higher survival chance.
+
+### Correlation Matrix:
+- Strong negative correlation between **Pclass** and **Fare**.
+- Moderate relationship between **Fare** and **Survived**.
+- Numerical correlations are not very strong overall (common in categorical datasets).
+
+---
+
+## 5. Outliers
+- Fare shows multiple extreme outliers.
+- Age has mild outliers but within reasonable range.
+
+---
+
+## 6. Insights for Modeling
+- Sex and Pclass are the strongest predictors.
+- Fare is an important continuous feature but needs scaling.
+- Age needs imputation before modeling.
+- One-hot encoding required for categorical variables (Embarked, Pclass, Sex).
+
+---
+
+## 7. Conclusion
+The Titanic dataset shows clear survival patterns:
+- Females survive more than males.
+- First-class passengers have the highest chance of survival.
+- People who paid higher fares tend to survive more.
+- Children and families show different survival behaviors.
+
+The EDA indicates that with proper preprocessing (scaling, encoding, imputing missing values), these features will work effectively for classification models in later tasks.
